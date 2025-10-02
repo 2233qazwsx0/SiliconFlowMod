@@ -3,8 +3,6 @@ name: Build Mod
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
@@ -22,7 +20,7 @@ jobs:
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v3
       with:
-        gradle-version: '7.5.1'
+        gradle-version: '8.5'  # 使用更新的 Gradle 版本
     
     - name: Build with Gradle
       run: gradle build
