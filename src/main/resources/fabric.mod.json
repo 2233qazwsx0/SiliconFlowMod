@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "siliconflowmod",
+  "version": "1.0.0",
+  "name": "硅基流动 AI Mod",
+  "description": "在 Minecraft 中集成硅基流动 AI 助手",
+  "authors": ["CUA"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/siliconflowmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.siliconflowmod.SiliconFlowMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  }
+}
